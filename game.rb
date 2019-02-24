@@ -2,7 +2,7 @@ require 'gosu'
 
 class MyGame < Gosu::Window
 	def initialize
-		super(300, 400, false)
+		super(600, 800, false)
 		@small_soldier = Player.new(self)
 	end
 
